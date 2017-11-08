@@ -1,0 +1,48 @@
+/* white background and yellow font */
+body {
+background-color: #ffffff;
+color: #ffcc00;
+padding: 80px 450px;
+font-size: 1.5em;
+font-weight: bold;
+font-style: italic;
+}
+
+/* text boxes and red border */
+input[type=text], input[type=password], input[type=fname], input[type=email], input[type=phone], input[type=bday], input[type=gen]{
+width: 35%;
+padding: 14px, 20px;
+margin: 6px 0;
+display: block;
+border: 1.75px solid #ff0000;
+box-sizing: border-box;
+background: #fff;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fbfbfb));
+
+-webkit-appearance: none;
+-webkit-box-shadow: 1px 1px 1px #ff0000;
+-webkit-border-radius: 0.25em;
+vertical-align: text-top;
+display: inline-block;
+}
+
+/* navy blue container fill and gray container border */
+.container{
+background-color: #00264d;
+width: 500px;
+border: 20px solid #a3a375;
+padding: 10px;
+margin: 25px;
+}
+
+#content {
+text-align: center;
+}
+
+/* red filled submit button with yellow border */
+input[type=submit]{
+background-color: #ff0000;
+border: 1.75px solid #ffcc00;
+text-align: center;
+box-sizing: border-box;
+}
