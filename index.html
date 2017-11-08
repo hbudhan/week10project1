@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="mystyle.css">
+ <!-- <style>
+ body {background-color: green;}
+ </style> -->
+</head>
+<body>
+      <div class="container">
+  <section id="content">
+    <form action="login.php" method ="post">
+      <h1>Log In</h1>
+      <div>
+        <input type="text" placeholder="Enter E-mail Address" required="" id="email" name="reg_email" />
+      </div>
+      <div>
+        <input type="password" placeholder="Enter Password" required="" id="password" name="reg_password"/>
+      </div>
+      <div>
+        <input type ="hidden" name="action" value="test_user"><br>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form><!-- form -->
+    
+  </section><!-- content -->
+</div><!-- container -->
+      
+      <p></p>
+      
+      <div class="container">
+  <section id="content">
+    <form action="signup.php" method ="post">
+      <h1>Sign Up</h1>
+      <div>
+        <input type="text" placeholder="Enter Username" required="" id="username" name="reg_uname" />
+      </div>
+      <div>
+        <input type="password" placeholder="Enter Password" required="" id="password" name="reg_password"/>
+      </div>
+        <input type="fname" placeholder="Enter Full Name" required="" id="fname" name="reg_fname"/>
+      <div>
+        <input type="email" placeholder="Enter E-mail Address" required="" id="email" name="reg_email"/>
+      <div>
+        <input type="phone" placeholder="Enter Phone Number" required="" id="phone" name="reg_phone"/>
+      <div>
+        <input type="bday" placeholder="Enter Birthday(mm/dd/yyyy)" required="" id="bday" name="reg_bday"/>
+      <div>
+        <input type="gen" placeholder="Enter Gender" required="" id="gen" name="reg_gen"/>
+      <div>
+        <input type ="hidden" name="action" value="test_user"><br>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form><!-- form -->
+    
+  </section><!-- content -->
+</div><!-- container -->
+ 
+</body>
+</html>
